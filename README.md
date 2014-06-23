@@ -3,7 +3,7 @@
 
 [![Code Climate](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial.png)](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial)
 
-[![Build Status](https://travis-ci.org/DanteAlg/Github-badges-status-tutorial.svg?branch=master)](https://travis-ci.org/DanteAlg/Github-badges-status-tutorial)
+[![Build Status](https://travis-ci.org/DanteAlg/github-status-icon-tutorial.svg?branch=master)](https://travis-ci.org/DanteAlg/github-status-icon-tutorial)
 
 1. Travis.ci
 2. Codeclimate
