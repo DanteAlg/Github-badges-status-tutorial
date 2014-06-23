@@ -23,7 +23,7 @@ Verifica a complexidade e integridade do código. Alerta prováveis erros de seg
 1. Travis.ci
 Após entrar com sua conta do github no *https://travis-ci.org/, procure os seus repositórios, caso não o encontre e ele exista atualize a página, o travis é um serviço integrado com o github então não tem necessidade de mais nada para identificar seus aplicativos. 
 
-O travis trabalha com diversas linguagens, por padrão ele assume que a aplicação que ele identifica é **ruby. Para alterar seus valores e padrões deve se criar um arquivo oculto no repositório chamado .travis.yml, assim podemos definir outras linguagens, ações e dependências. Na pagina do travis de tutorial para começar a utilizar explica o geral de como definir a linguagem até validar seu arquivo .yml.
+O travis trabalha com diversas linguagens, por padrão assume que a aplicação que identificada é **ruby. Para alterar seus valores deve se criar um arquivo oculto no repositório chamado .travis.yml, assim podemos definir outras linguagens, ações e dependências.
 
 - http://docs.travis-ci.com/user/getting-started/
 - Para os que não entendem bem de yml e querem ver na prática http://yaml-online-parser.appspot.com/
