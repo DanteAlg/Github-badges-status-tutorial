@@ -1,4 +1,4 @@
-# Exemplo de aplicação com badges no README
+# Icones de status
 =============================
 
 [![Code Climate](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial.png)](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial)
