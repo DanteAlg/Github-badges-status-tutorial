@@ -1,22 +1,22 @@
-Exemplo de aplicação com badges no github
+# Exemplo de aplicação com badges no README
 =============================
 
 [![Code Climate](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial.png)](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial)
 
 [![Build Status](https://travis-ci.org/DanteAlg/Github-badges-status-tutorial.svg?branch=master)](https://travis-ci.org/DanteAlg/Github-badges-status-tutorial)
 
-isso a passo:
-
 1. Travis.ci
 2. Codeclimate
 
-Travis.ci
+Travis
+------------------------------
 
 Executa o ambiente do sistema, roda toda a aplicação com testes.
 
 Codeclimate
+-----------------------------
 
-Verifica a complexidade e integridade do código. Alerta prováveis erros de segurança e códigos complexos.
+Verifica a complexidade e integridade do código. Alerta prováveis erros de segurança e códigos complexos. Notas de 0 a 4.
 
 ===============================
 
@@ -31,21 +31,21 @@ O travis trabalha com diversas linguagens, por padrão ele assume que a aplicaç
 
 Apos entender tudo isso, apenas devemos editar o .travis.yml, para isso alguns parâmetros básicos:
 
-- Podemos ver todos os parametros em http://docs.travis-ci.com/user/build-configuration/
-language: “Linguagem utilizada”
+- Podemos ver todos os parâmetros em http://docs.travis-ci.com/user/build-configuration/
+*language: “Linguagem utilizada”
 
 script: “O que o travis deve executar para fazer os testes”
-before_script: “Antes de fazer o script”
-after_script: “Depois de fazer o script”
+*before_script: “Antes de fazer o script”
+*after_script: “Depois de fazer o script”
 
-install:  “Instala as dependências externas”
-before_install
-after_install
+*install:  “Instala as dependências externas”
+*before_install
+*after_install
 
-env: “Especifica variáveis para o ambiente que vai se trabalhar”
-  Ex.: - DB=postgres (no seu ambiente onde tiver a variavel DB sera postgres)
+*env: “Especifica variáveis para o ambiente que vai se trabalhar”
+  Ex.: - DB=postgres
 
-addons: “Adiciona pacotes inteiros que o travis vai trabalhar”
+*addons:
 Ex.: postgresql: 9.3
 
 [*nota: O site .org é uma versão para repositórios públicos, a versão .com é para privados, e também é paga.]
@@ -54,6 +54,6 @@ Ex.: postgresql: 9.3
 
 2. Codeclimate
 
-Depois de criar a conta no codeclimate com seu login no github você deve adicionar um repositório público, da mesma forma que o travis, para repositórios privados é pago e publico gratuito. Clicando no texto da porcentagem de cobertura você é mandado para pagina que contem o markdown do codeclimate  
+Depois de criar a conta no codeclimate com seu login do github você deve adicionar um repositório público. Assim como o travis para repositórios privados é pago e publicos são gratuitos. Clicando no texto da porcentagem de cobertura você é mandado para uma página que contém o markdown do codeclimate.
 
 
