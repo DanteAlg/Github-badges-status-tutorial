@@ -1,4 +1,6 @@
-Github-badges-status-tutorial
+Exemplo de aplicação com badges no github
 =============================
 
-Exemplo de aplicação que utiliza badges de status.
+[![Code Climate](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial.png)](https://codeclimate.com/github/DanteAlg/Github-badges-status-tutorial)
+
+Como utilizar marcadores de testes da sua aplicação.
